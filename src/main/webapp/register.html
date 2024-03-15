@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="save">
+		<fieldset style="display: inline;padding: 10px;">
+			<legend style="margin-left:50px;"> Register form</legend>
+			Name: <input type="text" name="name" placeholder="Enter name"> <br><br>
+			Email: <input typre="email" name="email" placeholder="Enter Email"><br><br>
+			<label for="gen">Gender:</label>    
+	        <input type="radio" name="gender" value="male" id="m">
+	        <label for="m">male</label>	
+	        <input type="radio" name="gender" value="female" id="f">
+	        <label for="f">female</label>	        
+	        <input type="radio" name="gender" value="others" id="gen" disabled>
+	        <label for="gen">others</label><br><br>
+			Phone: <input type="tel" name="phone" placeholder="Enter phone number"><br><br>
+			Password: <input type="password" name="password" placeholder="Enter password"><br><br>
+			Address: <input type="text" name="address" placeholder="Enter address"><br><br>
+		<input type="submit" value="register" style="margin-left: 50px;">
+		</fieldset>
+	</form>
+</body>
+</html>
